@@ -248,3 +248,5 @@
         (->> (reset! repl-system))
         ;; then wait "forever" on the promise created:
         :web-server :shutdown deref)))
+
+;(-main)
